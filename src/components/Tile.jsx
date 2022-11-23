@@ -4,7 +4,7 @@ export function Tile(props) {
 	console.log(props);
 	return (
 		<section className="tile">
-			<img src={props.imageUrl} alt="" className="tile-image" width="300px"/>
+			<img src={props.imageUrl} alt={props.title} className="tile-image" width="300px"/>
 			<div className="tile-content">
 				<div className="tile-location">
 					<span>📍{props.location.toUpperCase()}</span>
